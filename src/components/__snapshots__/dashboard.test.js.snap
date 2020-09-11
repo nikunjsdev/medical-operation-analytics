@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Component should render Dashboard component 1`] = `
+<div
+  className="App"
+>
+  <WithStyles(ForwardRef(AppBar))
+    position="static"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <WithStyles(ForwardRef(Typography))
+        variant="h6"
+      >
+        Medical Operation Analytics
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="column"
+    justify="center"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="temperature"
+      xs={true}
+    >
+      <WithStyles(ForwardRef(Paper))
+        className="makeStyles-paper-2"
+      >
+        <b>
+          Temperature
+        </b>
+        <span
+          className="makeStyles-text-3"
+        >
+          0
+        </span>
+      </WithStyles(ForwardRef(Paper))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="pressure"
+      xs={true}
+    >
+      <WithStyles(ForwardRef(Paper))
+        className="makeStyles-paper-2"
+      >
+        <b>
+          Air Pressure
+        </b>
+        <span
+          className="makeStyles-text-3"
+        >
+          0
+        </span>
+      </WithStyles(ForwardRef(Paper))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="humidity"
+      xs={true}
+    >
+      <WithStyles(ForwardRef(Paper))
+        className="makeStyles-paper-2"
+      >
+        <b>
+          Humidity
+        </b>
+        <span
+          className="makeStyles-text-3"
+        >
+          0
+        </span>
+      </WithStyles(ForwardRef(Paper))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
